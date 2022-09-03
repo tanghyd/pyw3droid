@@ -17,3 +17,6 @@ Community Experiment on A WarCraft 3 AI
 - @freshwind
 - @danieltang
 
+## Maps
+
+- @theOCdrummer
