@@ -1,2 +1,19 @@
 # W3Droid
-Experimenting A WarCraft 3 AI
+
+Community Experiment on A WarCraft 3 AI
+
+## API 
+
+- @Pad
+- @Helpstone
+
+### Ideas
+
+- Simulate a game in faster than real time
+
+## Model
+
+- @C5ipo7i
+- @freshwind
+- @danieltang
+
