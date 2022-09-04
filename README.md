@@ -7,6 +7,7 @@ Community Experiment on A WarCraft 3 AI
 
 - @Pad
 - @Helpstone
+- @War3NEFans
 
 ### Ideas
 
