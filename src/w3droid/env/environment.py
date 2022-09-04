@@ -13,11 +13,11 @@ class BaseEnv(gym.Env):
         - https://stable-baselines.readthedocs.io/en/master/guide/custom_env.html#using-custom-environments
     """
 
-    # metadata = {'render.modes': ['human']}
+    metadata = {"render.modes": ["human"]}
 
     def __init__(self, render_mode: str | None = None):
-        # assert render_mode is None or render_mode in self.metadata["render_modes"]
-        # self.render_mode = render_mode
+        assert render_mode is None or render_mode in self.metadata["render_modes"]
+        self.render_mode = render_mode
         self.action_space: gym.spaces.Spaces = ActionSpace
         self.observation_space: gym.spaces.Spaces = ObservationSpace
 
