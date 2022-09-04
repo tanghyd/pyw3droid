@@ -75,3 +75,13 @@ only checks conda channels for available updates, so they still need to be updat
 using pip. See: https://stackoverflow.com/q/44265533 for a relevant discussion.
 
 In the future, contributors can develop a better conda distribution solution for this package.
+
+### Jupyter Notebook Kernel
+
+If the user would like to use this virtual environment in a Jupyter notebook kernel, we can execute the following:
+
+  ```
+  # add virtual environment to jupyter notebook kernels (can change --name)
+  pip install ipykernel                             # or conda install ipykernel
+  python -m ipykernel install --user --name=spiir
+  ```
