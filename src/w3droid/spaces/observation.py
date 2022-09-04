@@ -1,7 +1,7 @@
 import gym
 import numpy as np
 
-# the following is a
+# the following is a purely illustrative proof of concept observation space
 ObservationSpace: gym.Space = gym.spaces.Dict(
     {
         "entities": gym.spaces.Dict(

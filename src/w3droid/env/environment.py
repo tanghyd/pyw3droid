@@ -6,6 +6,7 @@ import numpy as np
 from ..spaces import ActionSpace, ObservationSpace
 
 
+# the following is a purely illustrative proof of concept custom OpenAI gym environment
 class BaseEnv(gym.Env):
     """Custom Python RL Environment that follows the OpenAI gym interface.
 

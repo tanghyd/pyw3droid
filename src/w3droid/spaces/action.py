@@ -2,6 +2,7 @@ import gym
 import numpy as np
 
 
+# the following is a purely illustrative proof of concept action space
 ActionSpace: gym.Space = gym.spaces.Dict(
     {
         "action_type": gym.spaces.Discrete(5),
