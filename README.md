@@ -1,34 +1,14 @@
 # W3Droid - Python RL Environment
 [![Discord](https://img.shields.io/discord/591914197219016707.svg?color=7289da&label=Project%20Discord&logo=discord&style=flat-square)](https://discord.gg/qfXneBxBed)
 
-Community Experiment on A WarCraft 3 AI
+A community experiment to develop a WarCraft 3 AI.
 
 ---
-## Project Scope
+## Contributing
 
-### API 
+To see more information about contributing to the development of this project, see `CONTRIBUTING.md`.
 
-- @Pad
-- @Helpstone
-- @War3NEFans
-
-#### Ideas
-
-- Simulate a game in faster than real time
-
-### Model
-
-- @C5ipo7i
-- @freshwind
-- @tanghyd
-
-### Maps
-
-- @theOCdrummer
-
-
----
-## Setup 
+## Quick Start 
 
 **NOTE:** The following has only been tested on Ubuntu, please let us know if these commands do 
 not work on your operating system.
@@ -78,10 +58,11 @@ In the future, contributors can develop a better conda distribution solution for
 
 ### Jupyter Notebook Kernel
 
-If the user would like to use this virtual environment in a Jupyter notebook kernel, we can execute the following:
+If the user would like to use this virtual environment in a Jupyter notebook kernel 
+with the name `w3droid`, we can execute the following:
 
   ```
-  # add virtual environment to jupyter notebook kernels (can change --name)
+  # add virtual environment to jupyter notebook kernels (can change `--name=w3droid`)
   pip install ipykernel                             # or conda install ipykernel
-  python -m ipykernel install --user --name=spiir
+  python -m ipykernel install --user --name=w3droid
   ```
