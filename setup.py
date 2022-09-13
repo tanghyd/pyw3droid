@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="w3droid",
+    name="pyw3droid",
     version="0.0.1",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
