@@ -3,29 +3,6 @@
 
 Welcome to the developer contribution guide for `pyw3droid`!
 
----
-## Project Contributors
-
-### API 
-
-- @Pad
-- @Helpstone
-- @War3NEFans
-
-#### Ideas
-
-- Simulate a game in faster than real time
-
-### Model
-
-- @C5ipo7i
-- @freshwind
-- @tanghyd
-
-### Maps
-
-- @theOCdrummer
-
 ## Python Style Guide
 
 We recommend writing Python code in style of [Black](https://github.com/psf/black).

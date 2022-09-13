@@ -7,5 +7,5 @@ setup(
     package_dir={"": "src"},
     python_requires=">=3.10",
     install_requires=["numpy", "gym"],
-    description="A community-led effort to develop an RTS AI for Warcraft III.",
+    description="A community-led Python RL environment to develop a Warcraft III AI.",
 )
